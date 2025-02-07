@@ -168,3 +168,21 @@ body{
 .nav-open-btn:is(:hover, :active) { background: var(--salmon);}
 
 .nav-open-btn ion-icon { --ionicon-stroke-width : 40px;}
+
+
+.navbar {
+  background: var(--white);
+  position: fixed;
+  top: 0;
+  left: -280px;
+  width: 100%;
+  max-width: 270px;
+  height: 100%;
+  border-right: 3px solid var(--rich-black-fogra-29);
+  font-family: var(--ff-roboto);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  z-index: 2;
+  visibility: hidden;
+  transition: 0.25s var(--cubic-out);
+}
